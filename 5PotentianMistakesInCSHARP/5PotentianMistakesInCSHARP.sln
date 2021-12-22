@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncActionsAreNotAwaited", "AsyncActionsAreNotAwaited\AsyncActionsAreNotAwaited.csproj", "{70FABB48-2BFF-42AE-9FF8-214B650095D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingGetOrAddConcurrentDictThreadSafe", "MakingGetOrAddConcurrentDictThreadSafe\MakingGetOrAddConcurrentDictThreadSafe.csproj", "{3AFCEE53-1315-4DE2-94FC-8E8E47B5B84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalsVisibleForUnitTwsting", "InternalsVisibleForUnitTwsting\InternalsVisibleForUnitTwsting.csproj", "{E7F30237-7325-4364-8945-EBBBC4740D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBodyVSAutoProperties", "ExpressionBodyVSAutoProperties\ExpressionBodyVSAutoProperties.csproj", "{7A08EB80-DC82-4D04-9499-1FD4222B9E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQForDifferentCollections", "LINQForDifferentCollections\LINQForDifferentCollections.csproj", "{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70FABB48-2BFF-42AE-9FF8-214B650095D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FABB48-2BFF-42AE-9FF8-214B650095D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FABB48-2BFF-42AE-9FF8-214B650095D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FABB48-2BFF-42AE-9FF8-214B650095D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFCEE53-1315-4DE2-94FC-8E8E47B5B84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFCEE53-1315-4DE2-94FC-8E8E47B5B84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFCEE53-1315-4DE2-94FC-8E8E47B5B84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFCEE53-1315-4DE2-94FC-8E8E47B5B84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F30237-7325-4364-8945-EBBBC4740D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F30237-7325-4364-8945-EBBBC4740D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F30237-7325-4364-8945-EBBBC4740D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F30237-7325-4364-8945-EBBBC4740D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A08EB80-DC82-4D04-9499-1FD4222B9E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A08EB80-DC82-4D04-9499-1FD4222B9E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A08EB80-DC82-4D04-9499-1FD4222B9E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A08EB80-DC82-4D04-9499-1FD4222B9E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F87A2E51-5DFA-4E61-AEFA-0424967EF7AC}
+	EndGlobalSection
+EndGlobal
