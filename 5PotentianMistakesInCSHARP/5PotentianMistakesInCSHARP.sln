@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBodyVSAutoPropert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQForDifferentCollections", "LINQForDifferentCollections\LINQForDifferentCollections.csproj", "{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalsVisibleForUnitTesting.Tests", "InternalsVisibleForUnitTesting.Tests\InternalsVisibleForUnitTesting.Tests.csproj", "{190F18CA-C8CC-4112-BE1C-52789B58A205}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8A04B9-6856-4A67-867E-51FFAAB96CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190F18CA-C8CC-4112-BE1C-52789B58A205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190F18CA-C8CC-4112-BE1C-52789B58A205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190F18CA-C8CC-4112-BE1C-52789B58A205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190F18CA-C8CC-4112-BE1C-52789B58A205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
