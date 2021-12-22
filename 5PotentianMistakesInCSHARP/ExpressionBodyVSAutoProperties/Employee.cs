@@ -6,12 +6,13 @@
         {
             FirstName = firstname;
             LastName = lastname;
+            FullName = $"{FirstName} {LastName}";
         }
 
         public string FirstName { get; }
 
         public string LastName { get; }
 
-        public string FullName => $"{FirstName} {LastName}"; // problem here
+        public string FullName { get; }
     }
 }
