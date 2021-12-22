@@ -3,7 +3,7 @@
 class Program
 {
     private static int _visitorCount = 0;
-    static readonly ConcurrentDictionary<string, string> Dictionary = new();
+    static readonly ConcurrentDictionary<string, Lazy<string>> Dictionary = new();
 
     static async Task Main(string[] args)
     {
@@ -20,10 +20,13 @@ class Program
     {
         var callValue = Dictionary.GetOrAdd("SomeKey", x =>
         {
-            Interlocked.Increment(ref _visitorCount); // increant threasd-safely
-            return callText;
+            return new Lazy<string>(() =>
+            {
+                Interlocked.Increment(ref _visitorCount); // thread-safe increment
+                return callText;
+            });
         });
 
-        Console.WriteLine(callValue);
+        Console.WriteLine(callValue.Value);
     }
 }
