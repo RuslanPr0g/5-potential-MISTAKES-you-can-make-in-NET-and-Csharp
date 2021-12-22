@@ -9,4 +9,4 @@ LINQ = Anu() VS NoLINQ = Count > 0
 
 ![image](https://user-images.githubusercontent.com/59767834/147098354-198c4c86-b6f1-4067-a7c8-f97239a7eba7.png)
 
-NOTE: List has Count beforehand, while Any() must use MoveNext(). BUT, IEnumerable doesn't have Count property, but it has Count() method and also uses MoveNext(), so that it performs in almost the exact same way as Any() does.
+NOTE: List has Count beforehand, while Any() must use MoveNext(). BUT, IEnumerable doesn't have Count property, but it has Count() method and also uses MoveNext(), BUT also it enumerates through ALL THE ITEMS because it's Count(), so that it is SIGNIFICANTLY slower than Any().
